@@ -21,7 +21,7 @@ public class Alurator {
 			
 			//Object instanciaControle = classeControle.newInstance();
 			
-			Object instanciaControle = classeControle.getConstructor().newInstance();
+			Object instanciaControle = classeControle.getDeclaredConstructor().newInstance();
 			
 			System.out.println(instanciaControle);
 			
